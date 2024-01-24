@@ -15,9 +15,13 @@ public class Actividades2_13 {
         seg++;
         if (seg>59){
             seg=0;
-        } else if (min>59) {
+        }
+        min++;
+        if (min>59) {
             min=0;
-        } else if (hora>59) {
+        }
+        hora++;
+        if (hora>23) {
             hora=0;
         }
 
