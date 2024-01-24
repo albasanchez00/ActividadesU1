@@ -1,10 +1,12 @@
 package Unidad2.Actividades_Resueltas;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Actividad2_8 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+        sc.useLocale(Locale.US);
         double x1, x2, d;
         double a,b,c;
         System.out.println("Inreoduce un valor para a: ");
