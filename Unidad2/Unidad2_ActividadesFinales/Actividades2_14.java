@@ -77,6 +77,5 @@ public class Actividades2_14{
             }
         }
         System.out.println("El numero se escribe-> " + salida);
-
     }
 }
