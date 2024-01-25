@@ -10,7 +10,7 @@ public class Actividad2_14 {
         //Declaración de las variables
         Scanner sc=new Scanner(System.in);
         byte num; //numweo que leere
-        System.out.println("Introduce un numero entre 1 y 99 -> ");
+        System.out.println("Introduce un número entre 1 y 99 -> ");
         num= sc.nextByte();
         String salida="";
         /*
@@ -76,6 +76,6 @@ public class Actividad2_14 {
                 }
             }
         }
-        System.out.println("El numero se escribe-> " + salida);
+        System.out.println("El número escrito es " + salida);
     }
 }
