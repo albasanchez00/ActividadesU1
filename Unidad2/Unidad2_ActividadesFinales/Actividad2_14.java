@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
 
-public class Actividades2_14{
+public class Actividad2_14 {
     public static void main(String[] args) {
         //Declaración de las variables
         Scanner sc=new Scanner(System.in);
