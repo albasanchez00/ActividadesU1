@@ -2,7 +2,7 @@ package Unidad2.Actividades_Resueltas;
 
 import java.util.Scanner;
 
-public class Actividades2_13 {
+public class Actividad2_13 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int seg, min, hora;

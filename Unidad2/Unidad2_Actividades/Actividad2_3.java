@@ -1,4 +1,4 @@
-package Unidad2_Actividades;
+package Unidad2.Unidad2_Actividades;
 
 import java.util.Scanner;
 

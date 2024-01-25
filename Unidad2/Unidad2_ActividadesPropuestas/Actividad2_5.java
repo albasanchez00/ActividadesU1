@@ -1,4 +1,4 @@
-package Unidad2_ActividadesPropuestas;
+package Unidad2.Unidad2_ActividadesPropuestas;
 
 import java.util.Scanner;
 public class Actividad2_5 {

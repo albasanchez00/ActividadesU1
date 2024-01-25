@@ -2,7 +2,7 @@ package Unidad2.Actividades_Resueltas;
 
 import java.util.Scanner;
 
-public class Actividades2_12 {
+public class Actividad2_12 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int dia,mes,anio;
