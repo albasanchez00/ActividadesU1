@@ -8,6 +8,7 @@ public class Actividad3_5_2 {
         Scanner sc=new Scanner(System.in);
         int  operador1, operador2, resultadoUser, resultado=0;
         byte opcion=0;
+        int contador=0;
         char simbolo=' ';
         String salida=" ";
         String menu;
@@ -24,6 +25,7 @@ public class Actividad3_5_2 {
             operador2=(int)Math.floor(Math.random()*100+1);
             System.out.print(operador1 + " + " + operador2 + " = ");
             resultado= sc.nextInt();
+            resultadoUser= sc.nextInt();
             operacionesSeguidas++;
             switch (opcion){
                 case 1-> {
@@ -45,8 +47,12 @@ public class Actividad3_5_2 {
                     break;
                 }
             }
-        } while (resultado==operador1+operador2);
-        System.out.println("A conseguido realizar " + (operacionesSeguidas-1) + " sumas seguidas");
-
+         if (opcion!=4){
+             resultadoUser=Integer.parseInt(JOptionPane.showInputDialog(salida));
+         }
+         ++contador;
+        } while (opcion!=4 && resultadoUser==resultado);
+        --contador;
+        JOptionPane.showInputDialog(null, contador);
     }
 }
