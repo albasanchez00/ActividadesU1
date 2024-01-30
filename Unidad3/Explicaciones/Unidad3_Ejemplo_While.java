@@ -1,6 +1,6 @@
 package Unidad3.Explicaciones;
 //1º Ejemplo
-public class Unidad3_EjemploWhile {
+public class Unidad3_Ejemplo_While {
     public static void main(String[] args) {
         int i = 1;//valor inicial
         boolean t=true;
