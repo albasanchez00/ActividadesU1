@@ -1,6 +1,6 @@
 package Unidad3.Explicaciones;
 
-public class Unidad3_Ejmplo_For_Incremento {
+public class Unidad3_Ejemplo_For_Incremento {
     public static void main(String[] args) {
         for (int i=0; i<=10; i++){
             System.out.println("El valor de i es -> "+i);
