@@ -20,4 +20,4 @@ public class Unidad3_Ejemplo_Salidas_Anticipadas_Continue {
 }
 /*
 *Hacer una lista de 14 personas, y saltar los que se llamen manuel
- */
+*/
