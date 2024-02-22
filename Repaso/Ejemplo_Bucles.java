@@ -2,7 +2,7 @@ package Repaso;
 
 import java.util.Scanner;
 
-public class Ejemplo1 {
+public class Ejemplo_Bucles {
     public static void main(String[] args) {
         //Declaramos nuestras variables
         int habitantes,total=0;
