@@ -44,9 +44,11 @@ public class Ejemplo_Cine {
                 case 1,2,3 -> {
                     if (opcionMenu==1){
                         peliSeleccionada+="\n\t"+pelicula1;
-                    } else if (opcionMenu==2) {
+                    }
+                    if (opcionMenu==2) {
                         peliSeleccionada+="\n\t"+pelicula2;
-                    } else if (opcionMenu==3) {
+                    }
+                    if (opcionMenu==3) {
                         peliSeleccionada+="\n\t"+pelicula3;
                     }
 
@@ -59,9 +61,11 @@ public class Ejemplo_Cine {
                 case 4,5,6->{
                     if (opcionMenu==4){
                         peliSeleccionada+="\n\t"+pelicula4;
-                    } else if (opcionMenu==5) {
+                    }
+                    if (opcionMenu==5) {
                         peliSeleccionada+="\n\t"+pelicula5;
-                    } else if (opcionMenu==6) {
+                    }
+                    if (opcionMenu==6) {
                         peliSeleccionada+="\n\t"+pelicula6;
                     }
                     System.out.print("\tNumero de adultos-> ");
@@ -74,7 +78,7 @@ public class Ejemplo_Cine {
             }
         }while (opcionMenu!=7); {
             System.out.println("\t--------Entradas--------");
-            System.out.println("\tPelicula: " + peliSeleccionada);
+            System.out.println("\tPelicula:"+ peliSeleccionada);
             System.out.println("\tImporte a pagar -> " + totalEntradas +"€");
             System.out.println("\t------------------------)");
         }
