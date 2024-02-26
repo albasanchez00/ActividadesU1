@@ -6,13 +6,8 @@ public class Unidad4_Actividad_4 {
     //Comparamos los parametros a y b y devuelve el mayor de ambos
     public static int maximo(int a, int b) {
         Scanner sc=new Scanner(System.in);
-        int max;
-        if (a>b){ //si a es mayor que b
-            max=a;
-        }else { //si son iguales o b mayor que a
-            max=b;
-        }
-        return (max); //Devuevle el valor de la variable max
+        int max=Math.max(a,b);
+        return max;
     }
 
     public static void main(String[] args) {
