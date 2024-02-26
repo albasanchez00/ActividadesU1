@@ -1,6 +1,6 @@
-package Unidad4.Ejemplos;
+package Unidad4.Explicaciones;
 
-public class U4_EjemploFuncion {
+public class Unidad4_EjemploFuncion {
     public static void tresSaludos() {
         System.out.println("Te vamos a saludar 3 veces");
         for (int i=0;i<3;i++){

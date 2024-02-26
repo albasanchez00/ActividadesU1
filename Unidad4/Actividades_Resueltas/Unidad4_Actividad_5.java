@@ -9,13 +9,13 @@ public class Unidad4_Actividad_5 {
     }
 
     public static boolean comprobar(char c) {
-        boolean reslutado;
+        boolean resultado;
         if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
                 c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
-            reslutado = true;
+            resultado = true;
         } else {
-            reslutado = false;
+            resultado = false;
         }
-        return reslutado;
+        return resultado;
     }
 }

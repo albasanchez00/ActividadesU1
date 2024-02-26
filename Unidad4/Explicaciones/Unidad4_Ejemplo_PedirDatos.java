@@ -1,8 +1,8 @@
-package Unidad4.Ejemplos;
+package Unidad4.Explicaciones;
 
 import java.util.Scanner;
 
-public class Ejemplo_PedirDatos {
+public class Unidad4_Ejemplo_PedirDatos {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String nombre;

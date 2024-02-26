@@ -1,8 +1,8 @@
-package Unidad4.Ejemplos;
+package Unidad4.Explicaciones;
 
 import java.util.Scanner;
 
-public class U4_Ejemplo_Return {
+public class Unidad4_Ejemplo_Return {
     public static void main(String[] args) {
         String nombreUsuario=llamadaNombre(3);
         System.out.print("Tu nombre es -> " + nombreUsuario);
