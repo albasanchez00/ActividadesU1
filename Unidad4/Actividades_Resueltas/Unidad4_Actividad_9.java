@@ -2,7 +2,11 @@ package Unidad4.Actividades_Resueltas;
 
 import java.util.Scanner;
 
-public class Unidad4_Actividad_4 {
+public class Unidad4_Actividad_9 {
+    static int maximo(int a, int b, int c){
+        int aux= maximo(a,b);
+        return (maximo(aux, c));
+    }
     //Comparamos los parametros a y b y devuelve el mayor de ambos
     public static int maximo(int a, int b) {
         Scanner sc=new Scanner(System.in);
@@ -15,10 +19,7 @@ public class Unidad4_Actividad_4 {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Introduce un número -> ");
-        int a= sc.nextInt();
-        System.out.println("Introduce otro número -> ");
-        int b= sc.nextInt();
-        System.out.println("El numero mayor es: " + maximo(a,b));
+        int max= maximo(2,9,7);
+        System.out.println("El mayor es -> " + max);
     }
 }
