@@ -9,7 +9,7 @@ public class Unidad4_Actividad_3 {
         double area, volumen;
         switch (opcion) {
             case 1->{
-                volumen=2*Math.PI*Math.pow(radio, 2) * altura;
+                volumen=Math.PI*Math.pow(radio, 2) * altura;
                 System.out.println("El volumen es de: " + volumen);
             }
             case 2->{
@@ -26,7 +26,7 @@ public class Unidad4_Actividad_3 {
         double radio=sc.nextDouble();
         System.out.println("Introduzca la altura-> ");
         double alt=sc.nextDouble();
-        System.out.println("¿Qué desea calcular (1.Área / 2.Volúmen)? -> ");
+        System.out.println("¿Qué desea calcular (1.Volúmen / 2.Área)? -> ");
         int tipoCalculo =sc.nextInt();
         System.out.println();
         areayVolumen(radio,alt,tipoCalculo);
