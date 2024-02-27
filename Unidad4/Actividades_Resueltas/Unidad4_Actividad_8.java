@@ -27,8 +27,9 @@ public class Unidad4_Actividad_8 {
 
                     case 4->
                         (double) a / b;
-                    case 5->{
-
+                    default -> {
+                        System.out.println("Operación no válida");
+                        yield 0;
                     }
                 };
         return result;
