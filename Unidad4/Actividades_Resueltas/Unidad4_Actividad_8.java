@@ -16,17 +16,14 @@ public class Unidad4_Actividad_8 {
         Scanner sc=new Scanner(System.in);
         double result;
         result = switch (operacion){
-                    case 1->
-                        a + b;
+                    case 1-> (double) a + b;
 
-                    case 2->
-                        a - b;
+                    case 2-> (double)a - b;
 
-                    case 3->
-                        a * b;
+                    case 3-> (double) a * b;
 
-                    case 4->
-                        (double) a / b;
+                    case 4-> (double) a / b;
+
                     default -> {
                         System.out.println("Operación no válida");
                         yield 0;
