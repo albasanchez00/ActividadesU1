@@ -23,6 +23,8 @@ public class Actividad_2 {
         }
         media= (double) sumaEdades/contadorAlumnos;
         System.out.println("Suma de todas las edades -> " + sumaEdades);
-
+        System.out.println("Media -> " + media);
+        System.out.println("Suma de todos los alumnos -> " + contadorAlumnos);
+        System.out.println("Mayores de edad (+18) -> " + mayoresEdad);
     }
 }
