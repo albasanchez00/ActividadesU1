@@ -1,4 +1,4 @@
-package Repaso;
+package Repaso_Examen.Repaso;
 
 import java.util.Scanner;
 /*

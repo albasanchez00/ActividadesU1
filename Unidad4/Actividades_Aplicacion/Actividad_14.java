@@ -15,10 +15,10 @@ public class Actividad_14 {
         System.out.println("Introduce una cantidad de minutos -> ");
         mins= sc.nextInt();
 
-
     }
 
     public static void segundos(int seg, int dia, int hora, int min) {
+        Scanner sc=new Scanner(System.in);
         seg= dia*86400;
         seg= hora*3600;
         seg= min*60;
@@ -26,5 +26,6 @@ public class Actividad_14 {
         System.out.println("Dias-Segundos -> " + dia);
         System.out.println("Horas-Segundos -> " + hora);
         System.out.println("Minutos-Segundos -> " + min);
+        return;
     }
 }
