@@ -6,7 +6,7 @@ import java.util.Scanner;
 *Solicitar al usuario el número de elementos y luego mostrar de
  forma inversa los números introducidos.
  */
-public class Actividad_Resuelta_3 {
+public class Actividad_Resuelta_4 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         mostrar("Indique el número de elementos enteros a insertar ->");
@@ -27,4 +27,19 @@ public class Actividad_Resuelta_3 {
     public static void mostrar(String texto) {
         System.out.println("\t"+texto);
     }
+    public static void mostrarSinLn(String texto) {
+        System.out.println("\t"+texto);
+    }
+
+
+    public static int maximo(int t[]) { //Podemos pasar arrays por parametros a una funcion
+        int max= t[0]; //asumimos que al menos hay 1 elemento
+        for (int elemento:t){
+            if (elemento>max){ //recorremos el array por parametros
+                max=elemento; //validamos cada elemento y comparamos con el maximo acumulado.
+            }
+        }
+        return (max);
+    }
 }
+

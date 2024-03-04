@@ -8,7 +8,7 @@ import java.util.Arrays;
 * Enteros, doubles y booleanos
 * Mostrarlos -> usa una funcion
  */
-public class U5_Actividad_Resuelta_1 {
+public class Actividad_Resuelta_1 {
     public static void main(String[] args) {
         //crear el array de números:
         int[] numeros=new int[10];
