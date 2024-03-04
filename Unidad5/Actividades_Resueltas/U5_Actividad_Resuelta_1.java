@@ -26,6 +26,14 @@ public class U5_Actividad_Resuelta_1 {
         }
         System.out.print("= "+ suma);
 
+        String[] id=new String[5];
+        //Inicializa con un valor predeterminado (un array).
+        Arrays.fill(id,"nombre");
+        System.out.println(Arrays.toString(id));
+        double[] puntuacion=new double[10];
+        //Inicializa los indices comprendidos de 0 a 5 con el valor de 55:
+        Arrays.fill(puntuacion,0,5,55);
+        System.out.println(Arrays.toString(puntuacion));
 
 
     }
