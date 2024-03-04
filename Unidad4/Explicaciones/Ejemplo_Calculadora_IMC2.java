@@ -41,42 +41,42 @@ public class Ejemplo_Calculadora_IMC2 {
             switch (sexo){
                 case 'M'->{
                     if(IMC < 16){
-                        System.out.println("Su diagnóstico es");
+                        System.out.println(nombre + " su diagnóstico es:");
                         System.out.println("");
-                        System.out.println("Necesita ingresar en un hospital");
+                        System.out.println("Necesita hospitalizació.n");
                         System.out.println("");
                     } else if(IMC < 17){
-                        System.out.println("Su diagnóstico es");
+                        System.out.println(nombre + " su diagnóstico es:");
                         System.out.println("");
                         System.out.println("Usted tiene infrapeso");
                         System.out.println("");
                     } else if (IMC < 18){
-                        System.out.println("Su diagnóstico es -> ");
+                        System.out.println(nombre + " su diagnóstico es:");
                         System.out.println("");
                         System.out.println("Usted tiene bajo peso");
                         System.out.println("");
                     } else if (IMC < 25){
-                        System.out.println("Su diagnóstico es -> ");
+                        System.out.println(nombre + " su diagnóstico es:");
                         System.out.println("");
                         System.out.println("Usted tiene un peso normal (saludable)");
                         System.out.println("");
                     } else if (IMC < 30){
-                        System.out.println("Su diagnóstico es -> ");
+                        System.out.println(nombre + " su diagnóstico es:");
                         System.out.println("");
                         System.out.println("Usted tiene sobre peso (obesidad grado I)");
                         System.out.println("");
                     } else if (IMC < 35){
-                        System.out.println("Su diagnóstico es -> ");
+                        System.out.println(nombre + " su diagnóstico es:");
                         System.out.println("");
                         System.out.println("Usted tiene sobrepeso crónico (obesidad grado II)");
                         System.out.println("");
                     } else if (IMC < 40){
-                        System.out.println("Su diagnóstico es -> ");
+                        System.out.println(nombre + " su diagnóstico es:");
                         System.out.println("");
                         System.out.println("Usted tiene obesidad premórbida (obesidad grado III)");
                         System.out.println("");
                     } else {
-                        System.out.println( " tu diagnóstico es ->");
+                        System.out.println(nombre + " su diagnóstico es:");
                         System.out.println("");
                         System.out.println("Usted tiene obesidad mórbida (obesidad grado IV)");
                         System.out.println("");
@@ -84,43 +84,36 @@ public class Ejemplo_Calculadora_IMC2 {
                 }
                 case 'H'->{
                     if(IMC < 16){
-                        System.out.println("Su diagnóstico es");
+                        System.out.println(nombre + " su diagnóstico es:");
                         System.out.println("");
                         System.out.println("Necesita ingresar en un hospital");
                         System.out.println("");
                     } else if(IMC < 17){
-                        System.out.println("Su diagnóstico es");
-                        System.out.println("");
+                        System.out.println(nombre + " su diagnóstico es:");                        System.out.println("");
                         System.out.println("Usted tiene infrapeso");
                         System.out.println("");
                     } else if (IMC < 18){
-                        System.out.println("Su diagnóstico es -> ");
-                        System.out.println("");
+                        System.out.println(nombre + " su diagnóstico es:");                        System.out.println("");
                         System.out.println("Usted tiene bajo peso");
                         System.out.println("");
                     } else if (IMC < 25){
-                        System.out.println("Su diagnóstico es -> ");
-                        System.out.println("");
+                        System.out.println(nombre + " su diagnóstico es:");                        System.out.println("");
                         System.out.println("Usted tiene un peso normal (saludable)");
                         System.out.println("");
                     } else if (IMC < 30){
-                        System.out.println("Su diagnóstico es -> ");
-                        System.out.println("");
+                        System.out.println(nombre + " su diagnóstico es:");                        System.out.println("");
                         System.out.println("Usted tiene sobre peso (obesidad grado I)");
                         System.out.println("");
                     } else if (IMC < 35){
-                        System.out.println("Su diagnóstico es -> ");
-                        System.out.println("");
+                        System.out.println(nombre + " su diagnóstico es:");                        System.out.println("");
                         System.out.println("Usted tiene sobrepeso crónico (obesidad grado II)");
                         System.out.println("");
                     } else if (IMC < 40){
-                        System.out.println("Su diagnóstico es -> ");
-                        System.out.println("");
+                        System.out.println(nombre + " su diagnóstico es:");                        System.out.println("");
                         System.out.println("Usted tiene obesidad premórbida (obesidad grado III)");
                         System.out.println("");
                     } else {
-                        System.out.println( " tu diagnóstico es ->");
-                        System.out.println("");
+                        System.out.println(nombre + " su diagnóstico es:");                        System.out.println("");
                         System.out.println("Usted tiene obesidad mórbida (obesidad grado IV)");
                         System.out.println("");
                     }
