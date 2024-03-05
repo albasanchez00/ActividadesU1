@@ -9,7 +9,7 @@ public class U5_Explicaciones_Copiar_Array {
         //Copiar un array, crear dos arrays con la misma longitud.
         int arrayUno[]=new int[5];
         for (int i=0;i<arrayUno.length;i++){
-            arrayUno[i]=(int) (Math.random()*49+1);
+            arrayUno[i]=(int) (Math.random()*100+1);
         }
         mostrar(Arrays.toString(arrayUno));
         //Si necesitas un array se puede hacer de la siguiente manera:
