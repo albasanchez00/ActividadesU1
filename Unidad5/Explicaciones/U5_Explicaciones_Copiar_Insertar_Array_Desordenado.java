@@ -21,7 +21,6 @@ public class U5_Explicaciones_Copiar_Insertar_Array_Desordenado {
     public static void mostrar(String texto) {
         System.out.println("\t"+texto);
     }
-
     public static void mostrarLn(String texto) {
         System.out.print("\n\t"+texto);
     }
