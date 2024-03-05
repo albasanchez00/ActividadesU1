@@ -9,7 +9,7 @@ import java.util.Arrays;
 */
 public class U5_Explicaciones_Buusqueda_Ordenada {
     public static void main(String[] args) {
-        int numeros[]={5,7,2,3,7,8,3,4,5,7,8};
+        int numeros[]={13,15,18,12,11,16,19,17};
         mostrar("Longitud -> " + numeros.length);
         mostrar("- Sin Ordenar -");
 
@@ -27,8 +27,13 @@ public class U5_Explicaciones_Buusqueda_Ordenada {
             -Si es negativo o menor que 0. Es el índice donde debería ir posicionado ese
              elemento buscado, pero que no se encuentra.
         */
-        int pos=Arrays.binarySearch(numeros,8);
-        mostrar("Posición ->" + pos);
+        int pos=Arrays.binarySearch(numeros,1);
+        mostrar("Posición -> " + pos);
+        if(pos<0) {
+            mostrarErr("Este número no existe en la tabla");
+            int indiceInsertar = pos - 1;
+            mostrar("El número indicao debería ir en el índice " + indiceInsertar + " para mantener la tabla ordenda.");
+        }
     }
 
     public static void mostrar(String texto) {
@@ -37,6 +42,10 @@ public class U5_Explicaciones_Buusqueda_Ordenada {
 
     public static void mostrarLn(String texto) {
         System.out.print("\n\t"+texto);
+    }
+
+    public static void mostrarErr(String texto) {
+        System.err.println("\t"+texto);
     }
 
 }
