@@ -30,7 +30,6 @@ public class Actividad_Resuelta_6 {
                 i--;
             }
         }
-        mostrar(Arrays.toString(combiGanadora));
         Scanner sc=new Scanner(System.in);
         mostrar("- Indica tu apuesta - ");
         int apuesta[]=new int[6];
@@ -38,8 +37,9 @@ public class Actividad_Resuelta_6 {
             mostrar("Número "+ (i+1)+"->");
             apuesta[i]=sc.nextInt();
         }
-        mostrar(Arrays.toString(apuesta));
+        mostrar("Tu apuesta es -> " + Arrays.toString(apuesta));
         mostrar("Número de aciertos en tu apuesta " + primitiva(apuesta,combiGanadora));
+        mostrar("La combinación ganadora es -> "+ Arrays.toString(combiGanadora));
     }
 
     public static int primitiva(int apuesta[], int ganadora[]) {
