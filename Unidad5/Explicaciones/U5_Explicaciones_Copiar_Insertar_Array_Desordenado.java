@@ -3,7 +3,7 @@ package Unidad5.Explicaciones;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class U5_Explicaciones_Copiar_Insertar_Array {
+public class U5_Explicaciones_Copiar_Insertar_Array_Desordenado {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int numeros[]=new int [6];
